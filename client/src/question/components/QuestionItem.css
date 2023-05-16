@@ -1,0 +1,16 @@
+.questionItem {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  border-top: 1px solid #00000020;
+}
+
+.questionItem h3 {
+  width: 100%;
+}
+
+.questionItem-actions {
+  display: flex;
+  width: 100%;
+  justify-content: end;
+}

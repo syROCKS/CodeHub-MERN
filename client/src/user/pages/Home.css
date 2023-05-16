@@ -1,0 +1,40 @@
+.home__main {
+  margin-top: -4rem;
+  min-height: 100vh;
+  display: flex;
+}
+
+.home__features {
+  min-height: 100vh;
+  margin-top: none;
+  display: flex;
+}
+
+.home__main-text {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.home__main-text__content {
+  text-align: left;
+}
+
+.home__main-text__content > h1 {
+  font-size: 4rem;
+}
+
+.home__main-text__content > h3 {
+  font-size: 2rem;
+}
+
+.home__main-animation {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home__main-animation__img {
+  width: 100%;
+}

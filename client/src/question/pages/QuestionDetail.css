@@ -1,0 +1,13 @@
+.questionDetail {
+  display: flex;
+  height: calc(100vh - 4rem);
+}
+
+.questionDetail-content {
+  padding: 1rem;
+  flex: 1;
+}
+
+.compiler {
+  flex: 2;
+}

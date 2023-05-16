@@ -1,0 +1,9 @@
+.userItem {
+  align-items: center;
+  width: 100%;
+  border-top: 1px solid #00000020;
+}
+
+.userItem h3 {
+  width: 100%;
+}

@@ -1,0 +1,61 @@
+.gbutton {
+  font: inherit;
+  padding: 0.5rem 1.5rem;
+  border: 1px solid #24a813;
+  border-radius: 4px;
+  background: #24a813;
+  color: white;
+  cursor: pointer;
+  margin-right: 1rem;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.gbutton:focus {
+  outline: none;
+}
+
+.gbutton:hover,
+.gbutton:active {
+  background: #186d0c;
+  border-color: #186d0c;
+}
+
+.gbutton--inverse {
+  background: transparent;
+  color: #24a813;
+}
+
+.gbutton--inverse:hover,
+.gbutton--inverse:active {
+  color: white;
+  background: #24a813;
+}
+
+.gbutton--danger {
+  background: #830000;
+  border-color: #830000;
+}
+
+.gbutton--danger:hover,
+.gbutton--danger:active {
+  background: #f34343;
+  border-color: #f34343;
+}
+
+.gbutton:disabled,
+.gbutton:hover:disabled,
+.gbutton:active:disabled {
+  background: #ccc;
+  color: #979797;
+  border-color: #ccc;
+  cursor: not-allowed;
+}
+
+.gbutton--small {
+  font-size: 0.8rem;
+}
+
+.gbutton--big {
+  font-size: 1.5rem;
+}
